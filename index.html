@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Knam211</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        
+        .section p {
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+        
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skill-tag {
+            background: #667eea;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        
+        .experience-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .experience-item:last-child {
+            border-bottom: none;
+        }
+        
+        .experience-item h3 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .experience-item .position {
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .experience-item .date {
+            color: #999;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            background: #f5f5f5;
+            padding: 20px 30px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .content {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Knam211</h1>
+            <p>Nhà phát triển - Lập trình viên</p>
+        </div>
+        
+        <div class="content">
+            <div class="contact-info">
+                <a href="mailto:your.email@example.com">📧 Email</a>
+                <a href="https://github.com/knam211">🐙 GitHub</a>
+                <a href="https://linkedin.com/in/yourprofile">💼 LinkedIn</a>
+            </div>
+            
+            <div class="section">
+                <h2>👋 Về Tôi</h2>
+                <p>Chào mừng đến với trang CV của tôi. Tôi là một nhà phát triển đam mê công nghệ, tìm hiểu liên tục về các công nghệ mới và cải thiện kỹ năng của mình.</p>
+            </div>
+            
+            <div class="section">
+                <h2>💼 Kinh Nghiệm</h2>
+                <div class="experience-item">
+                    <h3>Vị trí công việc 1</h3>
+                    <p class="position">Chức vụ: Developer</p>
+                    <p class="date">2024 - Hiện tại</p>
+                    <p>Mô tả công việc và những thành tích đạt được.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Vị trí công việc 2</h3>
+                    <p class="position">Chức vụ: Junior Developer</p>
+                    <p class="date">2023 - 2024</p>
+                    <p>Mô tả công việc và những kỹ năng học được.</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🎓 Học Vấn</h2>
+                <p><strong>Bằng cấp:</strong> [Tên trường đại học]</p>
+                <p><strong>Chuyên ngành:</strong> [Chuyên ngành của bạn]</p>
+                <p><strong>Tốt nghiệp:</strong> [Năm tốt nghiệp]</p>
+            </div>
+            
+            <div class="section">
+                <h2>🛠️ Kỹ Năng</h2>
+                <div class="skills-list">
+                    <div class="skill-tag">HTML/CSS</div>
+                    <div class="skill-tag">JavaScript</div>
+                    <div class="skill-tag">React</div>
+                    <div class="skill-tag">Git</div>
+                    <div class="skill-tag">GitHub</div>
+                    <div class="skill-tag">Python</div>
+                    <div class="skill-tag">SQL</div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📌 Dự Án Nổi Bật</h2>
+                <div class="experience-item">
+                    <h3>Dự án 1</h3>
+                    <p>Mô tả về dự án, công nghệ sử dụng và kết quả đạt được.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Dự án 2</h3>
+                    <p>Mô tả về dự án, công nghệ sử dụng và kết quả đạt được.</p>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2026 Knam211. All rights reserved.</p>
+            <p>Trang CV được tạo với HTML, CSS và GitHub Pages</p>
+        </footer>
+    </div>
+</body>
+</html>
